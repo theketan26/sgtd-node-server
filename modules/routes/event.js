@@ -23,7 +23,6 @@ eventRouter.get('/:year/:month/:day', async (req, res) => {
             day = '';
         }
         const result = await EventService.get_by_date(year.toString() + "-" + month.toString() + "-" + day.toString());
-        console.log(year.toString() + "-" + month.toString() + "-" + day.toString());
         if (result) {
             response.status = true;
             response.message = 'Event fetched successfully';

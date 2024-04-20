@@ -19,6 +19,13 @@ const defaultEvent = {
         "alt_mobile": 0,
         "address": ""
     }, 
+    "host": {
+        "name": "",
+        "email": "",
+        "mobile": 0,
+        "alt_mobile": 0,
+        "address": ""
+    }, 
     "payment": {
         "total": 0,
         "paid": 0,
